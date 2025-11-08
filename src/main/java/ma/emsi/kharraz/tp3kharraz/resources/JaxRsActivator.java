@@ -1,9 +1,8 @@
-package ma.emsi.kharraz.tp3kharraz;
+package ma.emsi.kharraz.tp3kharraz.resources;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 
 @ApplicationPath("/api")
-public class RestApplication extends Application {
-
+public class JaxRsActivator extends Application {
 }
